@@ -1,6 +1,6 @@
 class CreateArtists < ActiveRecord::Migration
   
-    sql = <<-SQL
+  sql = <<-SQL
     CREATE TABLE IF NOT EXISTS artists (
     id INTEGER PRIMARY KEY,
     name TEXT,
