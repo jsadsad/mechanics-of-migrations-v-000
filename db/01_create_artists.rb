@@ -10,6 +10,7 @@ class CreateArtists < ActiveRecord::Migration
   SQL
   
   ActiveRecord::Base.connection.execute(sql)
+  
   def up
   end
   
