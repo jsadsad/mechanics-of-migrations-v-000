@@ -1,7 +1,5 @@
 class CreateArtists < ActiveRecord::Migration
   
-  ActiveRecord::Base.connection.execute(sql)
-  
   def up
   end
   
